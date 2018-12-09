@@ -251,7 +251,7 @@ class Show_Contacts:
     def populate_ligand_select_list(self):
         ''' Go thourgh the loaded objects in PyMOL and add them to the selected list. '''
         #get the loaded objects
-        loaded_objects = [ name for name in cmd.get_names() if '_cluster_' not in name ]
+        loaded_objects = [ name for name in cmd.get_names('all') if '_cluster_' not in name ]
          
         self.select_object_combo_box.clear()
         self.select_object_combo_box2.clear()
