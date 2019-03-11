@@ -7,12 +7,7 @@ The advantage of this package is it requires many fewer dependencies.
 '''
 
 import sys,os
-import tkSimpleDialog
-import tkMessageBox
-import tkFileDialog
 import Pmw
-import Tkinter
-from Tkinter import *
 from pymol import cmd
 
 DEBUG=1
